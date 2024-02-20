@@ -50,13 +50,12 @@ export const App = () => {
 
   return (
     <div
-      style={{
-        height: '100vh',
+      style={{/* 
+        height: '100vh', */
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'column',
         fontSize: 40,
-        color: '#010101'
         }} 
       > 
       <Section title="Please leave feedback">
