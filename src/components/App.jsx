@@ -13,8 +13,8 @@
       React homework template
     </div>
   );
-}; 
- */
+};  */
+
 
 import React, { useState } from 'react';
 import FeedbackOptions from './FeedbackOptions.jsx';
@@ -49,17 +49,19 @@ export const App = () => {
   const hasFeedback = countTotalFeedback() > 0;
 
   return (
-    <div
-      style={{/* 
-        height: '100vh', */
+    <div 
+      style={{ 
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'column',
-        fontSize: 40,
+        alignItems: 'center',
+        flexDirection: 'column',
+        gap: 30,
+        padding: 50,
+        fontSize: 40, 
         }} 
-      > 
-      <Section title="Please leave feedback">
-        <FeedbackOptions options={['Good', 'Neutral', 'Bad']} onLeaveFeedback={handleFeedback} />
+      >
+      <Section title="Give Feedback">
+        <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={handleFeedback} />
       </Section>
       <Section title="Statistics">
         {hasFeedback ? (
