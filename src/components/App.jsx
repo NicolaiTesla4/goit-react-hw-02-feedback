@@ -59,8 +59,8 @@ export const App = () => {
         color: '#010101'
         }} 
       > 
-      <Section title="Give Feedback">
-        <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={handleFeedback} />
+      <Section title="Please leave feedback">
+        <FeedbackOptions options={['Good', 'Neutral', 'Bad']} onLeaveFeedback={handleFeedback} />
       </Section>
       <Section title="Statistics">
         {hasFeedback ? (
