@@ -32,13 +32,11 @@ export const App = () => {
 
   return (
     <div 
-      style={{  
-        gap: 30,
-        padding: 30,
-        fontSize: 20, 
+      style={{ 
+        padding: 10,
         }} 
       >
-      <Section title="Give Feedback">
+      <Section title="Please leave feedback">
         <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={handleFeedback} />
       </Section>
       <Section title="Statistics">
