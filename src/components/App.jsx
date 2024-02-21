@@ -1,21 +1,3 @@
-/* export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};  */
-
-
 import React, { useState } from 'react';
 import FeedbackOptions from './FeedbackOptions.jsx';
 import Statistics from './Statistics.jsx';
@@ -50,14 +32,10 @@ export const App = () => {
 
   return (
     <div 
-      style={{ 
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column',
+      style={{  
         gap: 30,
-        padding: 50,
-        fontSize: 40, 
+        padding: 30,
+        fontSize: 20, 
         }} 
       >
       <Section title="Give Feedback">
