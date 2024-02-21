@@ -4,6 +4,7 @@
 }
 
 .section h2 {
+    margin-top: 10px;
     gap: 20px;
     font-size: 30px;
 }
